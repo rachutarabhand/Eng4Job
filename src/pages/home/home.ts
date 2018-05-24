@@ -11,4 +11,7 @@ export class HomePage {
 
   }
 
+  navDailyQuest() {
+    this.navCtrl.push("DailyQuestPage");
+  }
 }
